@@ -57,6 +57,7 @@ module.exports = function (config) {
     frameworks: ['mocha', 'sinon-chai'],
     reporters: ['spec', 'coverage'],
     files: [
+      '../../node_modules/babel-polyfill/dist/polyfill.js',
       '../../node_modules/jquery/dist/jquery.min.js',
       '../../node_modules/jquery-ui/ui/version.js',
       '../../node_modules/jquery-ui/ui/safe-active-element.js',
